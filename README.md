@@ -5,20 +5,10 @@ This is an example Android Application README to show briefly the sections your 
 ## Installation
 Clone this repository and import into **Android Studio**
 ```bash
-git clone git@github.com:wolox/<reponame>.git
+git clone ...
 ```
 
 ## Configuration
-### Keystores:
-Create `app/keystore.gradle` with the following info:
-```gradle
-ext.key_alias='...'
-ext.key_password='...'
-ext.store_password='...'
-```
-And place both keystores under `app/keystores/` directory:
-- `playstore.keystore`
-- `stage.keystore`
 
 
 ## Build variants
@@ -33,7 +23,7 @@ From Android Studio:
 
 ## Maintainers
 This project is mantained by:
-* [Federico Ramundo](http://github.com/framundo)
+* [Iman Khodaparast](http://github.com/imankhdrpst)
 
 
 ## Contributing
