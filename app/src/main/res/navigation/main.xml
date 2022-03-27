@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@+id/mainPageScreen"
+    >
+
+    <fragment
+        android:id="@+id/mainPageScreen"
+        android:name="com.tierscooters.app.ui.main.main.MainFragment"
+        android:label=""
+        tools:layout="@layout/fragment_main" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/vehiclesScreen"
+        android:name="com.tierscooters.app.ui.main.vehicles.VehiclesFragment"
+        android:label="@string/vehicles"
+        tools:layout="@layout/fragment_posts" >
+    </fragment>
+
+</navigation>

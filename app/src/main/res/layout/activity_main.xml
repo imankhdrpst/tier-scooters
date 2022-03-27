@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme"
+            android:layoutDirection="rtl"
+            android:elevation="0dp"
+            app:elevation="0dp"
+            tools:ignore="MissingConstraints">
+
+            <RelativeLayout
+                android:id="@+id/lay_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:contentInsetStart="10dp"
+                    android:contentInsetLeft="10dp"
+                    android:contentInsetEnd="10dp"
+                    android:contentInsetRight="10dp"
+                    android:contentInsetEndWithActions="10dp"
+                    android:contentInsetStartWithNavigation="10dp"
+                    android:textAlignment="center"
+                    app:contentInsetEnd="10dp"
+                    app:contentInsetEndWithActions="10dp"
+                    app:contentInsetLeft="10dp"
+                    app:contentInsetRight="10dp"
+                    app:contentInsetStart="10dp"
+                    app:contentInsetStartWithNavigation="10dp"
+                    app:titleTextColor="@color/text_blue"
+                    app:contentScrim="@color/text_blue">
+
+                </androidx.appcompat.widget.Toolbar>
+
+                <!-- toolbar title -->
+                <TextView
+                    android:id="@+id/txt_toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/text_blue"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <fragment
+            android:id="@+id/nav_host_fragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/main"/>
+
+    </LinearLayout>
+
+
+</layout>
