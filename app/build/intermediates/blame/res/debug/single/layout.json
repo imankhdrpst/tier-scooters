@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Iman\\StudioProjects\\tierscooters\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_main.xml",
+        "source": "C:\\Users\\Iman\\StudioProjects\\tierscooters\\app\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iman\\StudioProjects\\tierscooters\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Iman\\StudioProjects\\tierscooters\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iman\\StudioProjects\\tierscooters\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_posts.xml",
+        "source": "C:\\Users\\Iman\\StudioProjects\\tierscooters\\app\\src\\main\\res\\layout\\fragment_posts.xml"
+    }
+]
